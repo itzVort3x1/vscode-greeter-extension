@@ -1,6 +1,6 @@
 {
-  "name": "test-example",
-  "displayName": "test-example",
+  "name": "greeter",
+  "displayName": "greeter",
   "description": "",
   "version": "0.0.1",
   "engines": {
