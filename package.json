@@ -1,6 +1,7 @@
 {
   "name": "greeter",
   "displayName": "greeter",
+  "publisher": "greeter",
   "description": "",
   "version": "0.0.1",
   "engines": {
