@@ -63,15 +63,17 @@ function messager(name) {
 	vscode.window.showInformationMessage(
 		`Welcome back ${name} 🦸 Let's Rock and Roll!`
 	);
-	// vscode.window.showInformationMessage(
-	// 	"Quote of the day",
-	// 	`Welcome back ${name} 🦸 Let's Rock and Roll!`
-	// );
 	setTimeout(() => {
 		vscode.window.showInformationMessage(
 			`Today's hero of the day is: ${superheros.random()}`
 		);
 	}, 5000);
+
+	setTimeout(() => {
+		vscode.window.showInformationMessage(
+			`Quote: ${Quote.getQuote().text} - Author: ${Quote.getQuote().author}`
+		);
+	}, 7000);
 }
 
 module.exports = {
